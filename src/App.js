@@ -4,6 +4,7 @@ import "./App.css"
 import About from "./components/About";
 import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
