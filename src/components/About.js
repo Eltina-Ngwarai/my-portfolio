@@ -6,7 +6,7 @@ export default function About(){
     return (
         <div className="about">
             <div>
-                <img src="./images/eltie.jpg" alt="aboutme-pic"/>
+                <img id="portrait" src={require('../images/eltie.jpg')} alt="aboutme-pic" />
             </div>
             <div className="bio">
                 <h1>About me</h1>
