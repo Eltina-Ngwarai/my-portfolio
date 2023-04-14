@@ -1,38 +1,40 @@
+.projects {
+  margin: 20px;
+}
+
 h1 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px 15px;
 }
 
 .heading {
-    text-align: center;
-    font-size: 3rem;
+  text-align: center;
+  font-size: 3rem;
 }
-.displayCard{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-   margin-bottom: 35px;
-   grid-gap: 10px;
-  
+.displayCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 80px;
+  grid-gap: 10px;
 }
 .description {
-    font-size: 20px;
-    line-height: 1.5;
-   
+  font-size: 20px;
+  line-height: 1.5;
 }
-.launcher{
-    border-radius: 10px;
-    background-color: purple;
-    border-color: purple;
-    border: 0px;
-    font-size: 18px;
-    padding: 15px 30px;
-
+.launcher {
+  border-radius: 10px;
+  background-color: purple;
+  border-color: purple;
+  border: 0px;
+  font-size: 18px;
+  padding: 15px 30px;
 }
-button a{
-    text-decoration: none;
-    color:white;
- 
+button a {
+  text-decoration: none;
+  color: white;
 }
 #landscape {
-    width: 100%;
+  width: 90%;
 }

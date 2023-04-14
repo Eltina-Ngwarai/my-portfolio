@@ -4,22 +4,21 @@ import "../styles/Projects.css"
 
 export default function Projects (){
     return (
-        <div className="Projects">
-            <h1 className="heading">Projects </h1>
+        <div id="Projects" className="projects">
+            <h1 className="heading">Projects</h1>
             <div className="container">
                 <div className="displayCard">
                     <div>
-                    <img id="landscape" src={require('../images/dictionary.png')} width="400px" alt="aboutme-pic" />
+                        <img id="landscape" src={require('../images/dictionary.png')} width="400px" alt="aboutme-pic" />
                     </div>
                     <div>
-                    <h1>Dictionary App</h1>
-                    <div className="description">
-                    <p>A responsive dictionary application that allows the user to search any word and get the definitions with pictures.Built in React.</p>
-                    <p>Made with React, HTML, CSS</p>
+                        <h1>Dictionary App</h1>
+                        <div className="description">
+                            <p>A responsive dictionary application that allows the user to search any word and get the definitions with pictures.Built in React.</p>
+                            <p>Made with React, HTML, CSS</p>
+                        </div>
+                        <button className="launcher"><a href="https://chipper-fairy-acf453.netlify.app/">Launch project</a></button>
                     </div>
-                    <button className="launcher"><a href="https://chipper-fairy-acf453.netlify.app/">Launch project</a></button>
-                    </div>
-                   
                 </div>
                 <div className="displayCard">
                     <div>
