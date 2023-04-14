@@ -4,11 +4,12 @@ import "../styles/Home.css"
 
 export default function Home(){
     return (
-        <di><Navbar/>
+    <div className="Home">
+        <div><Navbar/></div>
         <div className="intro">
             <h1>Hi, i'm Eltina Ngwarai</h1>
             <p>Front-end Web Developer</p>
-        </div>
-        </di> 
+            </div>
+        </div> 
     );
 }
