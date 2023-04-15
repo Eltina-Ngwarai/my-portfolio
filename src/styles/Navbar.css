@@ -1,8 +1,9 @@
-.navbar {
+.navigation-bar {
     width: 100%;
     height: 100px;
     background-color: #344e41;
-    margin: 8px;
+    position: fixed;
+    top: 0;
 
 }
 .links {
