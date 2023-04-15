@@ -6,6 +6,7 @@ h1 {
   font-size: 3rem;
   font-weight: bold;
   padding: 10px 15px;
+  color: #3a5a40;
 }
 
 .heading {
@@ -25,8 +26,8 @@ h1 {
 }
 .launcher {
   border-radius: 10px;
-  background-color: purple;
-  border-color: purple;
+  background-color: #3a5a40;
+  border-color: #3a5a40;
   border: 0px;
   font-size: 18px;
   padding: 15px 30px;
@@ -35,6 +36,7 @@ button a {
   text-decoration: none;
   color: white;
 }
+
 #landscape {
   width: 90%;
 }
