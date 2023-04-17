@@ -9,6 +9,7 @@ export default function About(){
             <div className="bio">
                 <h1>About me</h1>
                 <p>Coming from a background in accounting, I had previously never seen myself pursuing a career in Software Development. Then I discovered SheCodes! Now, less than a year later I have spent hundreds of hours learning frontend development with React and i love it. I have built multiple projects along the way and will only be adding more to that list.</p>
+            <a href="https://www.canva.com/design/DAFgGygb5DA/cV0nWU1YcqWumcFWdanFKw/view?utm_content=DAFgGygb5DA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="resumelink" target="_blank" rel="noreferrer">My Resume</a>
             </div>
         </div>
     );

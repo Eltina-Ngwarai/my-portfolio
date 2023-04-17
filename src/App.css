@@ -10,3 +10,8 @@ body {
 * {
     font-family: 'Source Serif Pro', sans-serif;
 }
+@media only screen and (max-width: 768px) {
+    .App {
+      max-width: 600px;
+    }
+  }

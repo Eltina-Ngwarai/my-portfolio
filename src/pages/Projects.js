@@ -17,7 +17,7 @@ export default function Projects (){
                         <div className="description">
                             <p>A responsive dictionary application that allows the user to search any word and get the definitions with pictures.</p>
                         </div>
-                        <button className="launcher"><a href="https://chipper-fairy-acf453.netlify.app/">Launch project</a></button>
+                        <button className="launcher"><a href="https://chipper-fairy-acf453.netlify.app/" target="_blank" rel="noreferrer">Launch project</a></button>
                     </div>
                 </div>
                 <div className="displayCard">
@@ -27,7 +27,7 @@ export default function Projects (){
                     <p>A responsive travel website on desktops, tablets and mobiles. Equipped with easy navigation to guide users with built-in Google Maps, and links to the airport and the city's public transport system.</p>
                     
                     </div>
-                    <button className="launcher"><a href="https://hamburg-landing-page.netlify.app/">Launch project</a></button>
+                    <button className="launcher"><a href="https://hamburg-landing-page.netlify.app/" target="_blank" rel="noreferrer">Launch project</a></button>
                     </div>
                     <div>
                         <img id="landscape" src={require('../images/hamburg.png')} width="400px" alt="aboutme-pic" />
@@ -42,7 +42,7 @@ export default function Projects (){
                     <div className="description">
                     <p>A responsive application built with React.The app helps to check the weather in various cities in the world.</p>                  
                     
-                     <button className="launcher"><a href="https://whimsical-paprenjak-2dee7c.netlify.app/">Launch project</a></button>
+                     <button className="launcher"><a href="https://whimsical-paprenjak-2dee7c.netlify.app/" target="_blank" rel="noreferrer">Launch project</a></button>
                     </div>
                     </div>
                 </div>

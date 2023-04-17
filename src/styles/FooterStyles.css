@@ -9,4 +9,10 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width:900px){
+    .footer-container {
+        margin:60px 0;
+    }
+
+}
 

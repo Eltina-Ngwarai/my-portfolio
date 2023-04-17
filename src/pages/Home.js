@@ -8,7 +8,7 @@ export default function Home(){
         <div><Navbar/></div>
         <div className="intro">
             <h1>Hi, i'm Eltina Ngwarai</h1>
-            <p>Front-end Web Developer</p>
+            <p>Junior Front-end Web Developer</p>
             </div>
         </div> 
     );

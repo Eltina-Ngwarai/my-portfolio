@@ -23,3 +23,10 @@
     margin: 50px;
     border-radius: 50%;
 }
+.resumelink {
+color: #3a5a40 ;
+}
+
+.resumelink:hover {
+    color: #68c5b1;
+}

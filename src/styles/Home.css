@@ -4,15 +4,17 @@
 }
 
 .intro h1 {
-    font-size:80px;
+    font-size:85px;
     font-weight: 600;
     letter-spacing: 3px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 400px;
     color: #3a5a40;
+
 }
 .intro p {
     text-align: center;
-    font-size: 20px;
+    font-size: 38px;
     color: #588157;
+   
 }
