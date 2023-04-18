@@ -1,15 +1,17 @@
 import React from "react";
-import Home from './pages/Home';
+import Home from './components/Home';
 import "./App.css"
 import About from "./components/About";
-import Projects from "./pages/Projects";
-import Footer from "./pages/Footer";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <Home />
       <About />
       <Projects />

@@ -1,32 +1,37 @@
 .about {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#daddd8;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #daddd8;
 }
 .bio {
-    padding: 50px;
+  padding: 50px;
 }
 .bio h1 {
-    font-size: 60px;
-    color: #3a5a40;
+  font-size: 60px;
+  color: #3a5a40;
 }
-.bio p{
-    font-size: 20px;
-    line-height: 1.5;
-} 
+.bio p {
+  font-size: 20px;
+  line-height: 1.5;
+}
 
 .portrait {
-    height: 50%;
-    margin: 50px;
-    border-radius: 50%;
+  height: 350px;
+  margin: 50px;
+  border-radius: 50%;
 }
 .resumelink {
-color: #3a5a40 ;
+  color: #3a5a40;
 }
 
 .resumelink:hover {
-    color: #68c5b1;
+  color: #68c5b1;
+}
+@media (max-width: 750px) {
+  .about {
+    display: block;
+  }
 }
